@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return cellA.localeCompare(cellB);
       });
 
+      tbody.innerHTML = '';
+
       rows.forEach((row) => tbody.appendChild(row));
     });
   });
